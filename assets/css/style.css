@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Heebo', sans-serif;
+}
+
+header {
+	/*background-color: #ff7373;*/
+	background: linear-gradient(to bottom right, black, white);
+	padding: 50px;
+
+}
+
+.logo {
+	font-family: 'Rubik', sans-serif;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+span {
+	color: white;
+}
+
+nav {
+	position: absolute;
+	right: 50px;
+	margin: 0 auto;
+}
+
+nav> ul {
+	position: relative;
+	bottom: -15px;
+	right: 375px;
+}
+
+nav > ul > a > li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: white;
+	border-radius: 40px;
+	width: 100px;
+	text-align: center;
+}
+
+main {
+	background-color: white;
+	width: 80%;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+.grandparent {
+	width: 50%;
+	background-color: grey;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.parent {
+	background-color: white;
+	height: 100%;
+	padding: 10px;
+	position: relative;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+.name {
+	background-color: violet;
+	position: absolute;
+	top: 30px;
+	left: 130px;
+	padding: 10px;
+	/*width: 370px;*/
+	width: 200px;
+	text-align: center;
+	color: black;
+}
+
+.certified {
+	position: absolute;
+	bottom:  -20px;
+	right: 20px;
+	background-color: salmon;
+	padding: 10px;
+}
+
+p {
+	margin-bottom:  20px;
+}
+
+.back {
+	background-color: grey;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: white;
+}
+
+.back a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	background-image: url();
+	height: 100vh;
+}
+
+.content {
+	width: 200px;
+	height: 300px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+}
+
+
+.clear:after {
+	content: ""; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+/*.title {
+	margin-top: 30px;
+}*/
+
+
+/*.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6E9FE;
+}*/
